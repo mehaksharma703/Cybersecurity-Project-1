@@ -96,8 +96,7 @@ Enable service on boot
 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-<figure><img src=/Screenshots/Elk project.PNG><figcaption></figcaption></figure>
-
+<figure><img src=/Screenshots/Sudodockerps.PNG><figcaption></figcaption></figure>
 
 
 
