@@ -43,12 +43,12 @@ Metricbeat is responsible for collecting hosts' metrics and statistics periodica
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name                Function            | IP Address | Operating System |
-|---------------------|------------------|----------------|------------------|
-| Jump Box        | Gateway             | 10.0.0.4    |   Linux            
-| Web-1             |  Server          |  10.0.0.10   |   Linux
-| Web-2             |  Server          |  10.0.0.6    |   Linux
-| Elk server       |  Monitoring        |    10.1.1.4   |   Linux  
+| Name                Function            | IP Address     | Operating System |
+|-----------------|-----------------------|----------------|------------------|
+| Jump Box        | Gateway               | 10.0.0.4       |   Linux          |  
+| Web-1           |  Server               |  10.0.0.10     |   Linux          |
+| Web-2           |  Server               |  10.0.0.6      |   Linux          |
+| Elk server      |  Monitoring           |  10.1.1.4      |   Linux          |
 
 
 
@@ -65,12 +65,12 @@ Machines within the network can only be accessed by __Jump Box Provisioner___.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name            | Publicly Accessible | Allowed IP Addresses |
-|-------------------|---------------------------|----------------------|
-| Jump Box      |      Yes                    | 99.235.137.134  (internet,my public ip)
-|  Web-1           |       Yes                   |   10.0.0.4(Jump box) , 20.106.144.83 (load balancer)   
-|  Web-2          |        Yes                   | 10.0.0.4 (Jump box)  ,  20.106.144.83 (load balancer)
-|    Elk                       Yes       | 99.235.137.134(my public i  ,10.0.0.0/16(red team virtual network)
+| Name              | Publicly Accessible | Allowed IP Addresses |
+|------------------ |---------------------------|----------------------|
+| Jump Box          |      Yes                    | 99.235.137.134  (internet,my public ip)
+|  Web-1            |       Yes                   |   10.0.0.4(Jump box) , 20.106.144.83 (load balancer)   
+|  Web-2            |        Yes                   | 10.0.0.4 (Jump box)  ,  20.106.144.83 (load balancer)
+|    Elk            |           Yes                | 99.235.137.134(my public i  ,10.0.0.0/16(red team virtual network)
 ### Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 
