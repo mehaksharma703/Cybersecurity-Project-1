@@ -27,7 +27,8 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly _available___, in addition to restricting ___traffic__ to the network.
 
 
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_    Load balancers play a crucial role as computing moves evermore to cloud.It requests for authentication (username/password) before accessing any website to mitigate any unauthorized access.
+-What aspect of security do load balancers protect? What is the advantage of a jump box?_    
+Load balancers play a crucial role as computing moves evermore to cloud.It requests for authentication (username/password) before accessing any website to mitigate any unauthorized access.
 
 A jump box is a secure computer that all admins first connect to before launching any administrative task  to connect to other servers or untrusted environments. It prevents Azure Virtual machines from being exposed to the public. It also helps to open one port instead of several ports to connect different Vms present in the azure cloud.
 
