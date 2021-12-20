@@ -70,7 +70,7 @@ A summary of the access policies in place can be found in the table below.
 | Jump Box          |      Yes                    | 99.235.137.134  (internet,my public ip)
 |  Web-1            |       Yes                   |   10.0.0.4(Jump box) , 20.106.144.83 (load balancer)   
 |  Web-2            |        Yes                   | 10.0.0.4 (Jump box)  ,  20.106.144.83 (load balancer)
-|    Elk            |           Yes                | 99.235.137.134(my public i  ,10.0.0.0/16(red team virtual network)
+|    Elk            |           Yes                | 99.235.137.134(my public internet  ,10.0.0.0/16(red team virtual network)
 ### Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 
